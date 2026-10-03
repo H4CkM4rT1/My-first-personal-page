@@ -4,16 +4,64 @@ img {
 body {
     margin: 0;
     text-align: center;
-    font-family: 'VT323', monospace;
+    font-family: 'Comic Sans MS', cursive;
     color: aquamarine;
     background-image: url("images/windows-xp.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-color: red;
 }
 main {
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     padding-top: 50px;
+}
+a {
+    color: crimson;
+}
+.videojuegos {
+    background-color: blue;
+    border: 3px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 15px;
+}
+.musica {
+    background-color: blue;
+    border: 3px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 15px;
+}
+.personal {
+    background-color: blue;
+    border: 3px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 15px;
+}
+.proyectos {
+    background-color: blue;
+    border: 3px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 15px;
+}
+.bloques {
+    display: flex;
+    gap: 20px;
 }

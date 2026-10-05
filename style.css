@@ -21,47 +21,170 @@ main {
 a {
     color: crimson;
 }
-.videojuegos {
-    background-color: blue;
-    border: 3px solid black;
+.hobbies {
+    background-color: yellow;
+    border: 3px solid blue;
     padding: 15px;
     margin-bottom: 20px;
     width: 300px;
     margin-left: 0;
     margin-right: 0;
     border-radius: 15px;
+    cursor: pointer;
+    color: blue;
+    margin-top: 20px;
 }
 .musica {
-    background-color: blue;
-    border: 3px solid black;
+    background-color: yellow;
+    border: 3px solid blue;
     padding: 15px;
     margin-bottom: 20px;
     width: 300px;
     margin-right: 0;
     margin-left: 0;
     border-radius: 15px;
+    cursor: pointer;
+    color: blue;
+    margin-top: 20px;
 }
 .personal {
-    background-color: blue;
-    border: 3px solid black;
+    background-color: yellow;
+    border: 3px solid blue;
     padding: 15px;
     margin-bottom: 20px;
     width: 300px;
     margin-left: 0;
     margin-right: 0;
     border-radius: 15px;
+    cursor: pointer;
+    color: blue;
+    margin-top: 20px;
 }
 .proyectos {
-    background-color: blue;
-    border: 3px solid black;
+    background-color: yellow;
+    border: 3px solid blue;
     padding: 15px;
     margin-bottom: 20px;
     width: 300px;
     margin-left: 0;
     margin-right: 0;
     border-radius: 15px;
+    cursor: pointer;
+    color: blue;
+    margin-top: 20px;
+}
+.ventana1 {
+    background-color: white;
+    border: 3px solid blue;
+    width: 300px;
+    height: 300px;
 }
 .bloques {
     display: flex;
     gap: 20px;
+    justify-content: center;
+}
+.ventana1 {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    color: black;
+}
+.barrat1 {
+    background-color: #0054e3;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: move;
+}
+.botoncerrar1 {
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ventana2 {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    color: black;
+    background-color: white;
+    border: 3px solid blue;
+    width: 300px;
+    height: 300px;
+}
+.barrat2 {
+    background-color: #0054e3;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: move;
+}
+.botoncerrar2 {
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ventana3 {
+    background-color: white;
+    border: 3px solid blue;
+    width: 300px;
+    height: 300px;
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    color: black;
+}
+.barrat3 {
+    background-color: #0054e3;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: move;
+}
+.botoncerrar3 {
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ventana4 {
+    background-color: white;
+    border: 3px solid blue;
+    width: 300px;
+    height: 300px;
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    color: black;
+}
+.barrat4 {
+    background-color: #0054e3;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: move;
+}
+.botoncerrar4 {
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    cursor: pointer;
 }

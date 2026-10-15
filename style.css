@@ -188,7 +188,7 @@ a {
     font-weight: bold;
     cursor: pointer;
 }
-@media (max width: 600px) {
+@media (max-width: 600px) {
     .bloques {
         flex-direction: column;
     }

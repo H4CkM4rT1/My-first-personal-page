@@ -193,3 +193,23 @@ a {
         flex-direction: column;
     }
 }
+.musica:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.hobbies:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.personal:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.proyectos:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
